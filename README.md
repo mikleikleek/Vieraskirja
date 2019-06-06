@@ -1,4 +1,4 @@
 # mikon-harjoitus-systeemi
 
 Tässä projektissa harjoittelen opitun tiedon soveltamissa käytännössä. 
-Testi, toimiiko?
+Kaikkia filuja en ole incluudannu, mm. tietokantaa.
