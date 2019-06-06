@@ -1,0 +1,7 @@
+.row-hover:hover{
+    background-color: #efefef;
+}
+
+.btn-min-width {
+    min-width: 10em !important;
+}

@@ -1,0 +1,159 @@
+input.nappi2 {
+    background: #00B2EE;
+}
+
+input.nappi2, input.nappip {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 1px;
+}
+
+/* Oranssi nappi */
+input.nappi2, input.nappi2o {
+    background: #f18f37;
+}
+
+input.nappip { 
+    background: #B22222;
+}
+
+a.ttip {
+    position: static;
+    cursor:help;
+    text-decoration:none;
+    color:#EE7313;
+    outline:none;
+}
+
+a.ttip span {
+    display: none;
+}
+
+a.ttip:hover span {
+    display:block;
+    position:absolute;
+    right:10px;
+    bottom:20px;
+    z-index:99;
+    min-width: 150px;
+    max-width:400px;
+    font-weight:normal;
+    margin-left:0;
+    text-align:left;
+    padding:1px 1px;
+    background:#ECF4F6;
+    border:1px solid #999999;
+    color:#000000;
+    font-size:10px;
+    text-decoration:none;
+}
+
+a.ttip:hover {
+    font-size:100%;
+    background-color:#ECF4F6;
+    text-decoration:none;
+} /* IE6 fix */
+
+/* NEW RULES 2018 */
+
+body {
+    background-color: #fff;
+    font-family: "Helvetica Neue",Helverica,Roboto,Arial,sans-serif;
+}
+
+#logotitle {
+    width: 400px;
+    height: 100px;
+    text-indent: -3333px;
+    border: 0;
+    margin: 0;
+}
+
+#logotitle a {
+    display: block;
+    width: 400px;
+    height: 50px;
+    text-decoration: none;
+    border: 0;
+    position: absolute;
+    top: 20px;
+}
+
+.th_page_footer {
+    color: white;
+    background-color: rgb(34, 47, 62);
+    padding-top: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+/* sticky footer */
+html {
+    position: relative;
+    min-height: 100%;
+}
+.container-main-content {
+    margin-bottom: 120px; /* Margin bottom by footer height */
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px; /* Set the fixed height of the footer here */
+    margin: 0;
+}
+/* sticky footer ends */
+
+.orange {
+    background-color: rgb(247, 147, 30);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1rem;
+}
+
+.orange a, .orange a:visited {
+    color: #222f3e;
+    text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1rem;
+}
+
+.breadcrumb {
+    margin-top: 10px;
+}
+.logorivi {
+    background-color: rgb(34, 47, 62);
+}
+
+.logorivi_korkeus {
+    min-height: 100px;
+}
+
+.logo {
+    padding:0;
+    width: 300px;
+    position: relative;
+    background: url('https://www.oamk.fi/files/9714/8051/1472/oamk_valk_FI_pysty.png') no-repeat scroll;
+    background-size: 70%;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.logo a {
+    height: 100px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    border: 0;
+    position: absolute;
+    top: 0;
+    text-indent: -3333px;
+}
+
+.logorivi_korkeus h1 {
+    color: white;
+}
